@@ -53,9 +53,9 @@ int main()
 		
 		printf("\n\nPLEASE READ: When entering the students name you will be asked to input first name and last name separatly, please: \n");
 		printf("\tDO NOT INPUT MIDDLE NAMES\n");
-	  printf("\tDO NOT INPUT FIRST NAME AND LAST NAME IN ONE LINE\n");
+	    printf("\tDO NOT INPUT FIRST NAME AND LAST NAME IN ONE LINE\n");
 		printf("\tDO NOT WORRY ABOUT CAPATILIZATION, ALL LETTERS WILL AUTOMATICALLY CAPATILIZED\n");
-	  printf("\tSEPARATE THEM WITH A NEW LINE!\n\n");
+	    printf("\tSEPARATE THEM WITH A NEW LINE!\n\n");
 		
 		//student information
 		
@@ -129,7 +129,7 @@ int main()
 			//Shows the list of commands for user		
 		int repeatFunction = 1;
 		while(repeatFunction)
-    {	
+		{	
 			char *firstName = firstNamesOfStudents[0];
 			char *lastName = lastNamesOfStudents[0];			
 
